@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    color: red;
+}
+#box{
+    margin-top: 40px;
+    .header_box{
+        width: 800px;
+        height: 70px;
+        border: 1px solid;
+        margin: 0 auto;
+        position: relative;
+        p{
+            color: rgb(85, 85, 255);
+        }
+      span{
+        margin-left: 10px;
+      }
+      i{
+        position: absolute;
+        right: 15px;
+        top: 12px;
+        font-size: 30px;
+        
+      }
+      
+    }
+    .main_box{
+        width: 800px;
+        height: 600px;
+        border: 1px solid;
+        border-top: 0;
+        margin: 0 auto;
+        display: flex;
+       
+           .chats{
+            background-color: rgb(149, 146, 146);
+           }
+            .chat{
+                display: flex;
+                width: 150px;
+                box-sizing: unset;
+                padding: 0px 20px;
+                justify-content: space-between;
+                padding-top: 30px;
+                .circle{
+                    border-radius: 50%;
+                    border: 1px solid;
+                    width: 60px;
+                    height: 60px;
+                    position: relative;
+                    margin-top: 8px;
+                    p{
+                       position: absolute;
+                       margin-left: 19px;
+                       margin-top: 17px;
+                      color: rgb(85, 85, 255);
+    
+                    }
+                   }
+                   .time{
+                    
+                    margin-top:17px;
+                    
+                   }
+            }
+            .messages{
+                width: 650px;
+                height: 600px;
+                border-left: 1px solid;
+                position: relative;
+                padding: 15px 20px;
+                .one{
+                    padding: 12px 0px;
+                    h3{
+                        font-size: 17px;
+                    }
+                    .message{
+                        border: 1px solid;
+                        height: 50px;
+                       
+                    }
+                }
+                
+            }
+        
+
+        
+    }
+}
