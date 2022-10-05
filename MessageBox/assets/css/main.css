@@ -1,0 +1,104 @@
+.myContainer {
+  padding: 8px 20px 0px 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  text-align: center;
+  color: rgb(90, 90, 90);
+}
+header h1 {
+  padding-top: 10px;
+}
+
+#box {
+  margin-top: 40px;
+}
+#box .header_box {
+  width: 800px;
+  height: 70px;
+  border: 1px solid;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(136, 116, 225);
+  color: rgb(247, 247, 133);
+}
+#box .header_box span {
+  margin-left: 10px;
+}
+#box .header_box i {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  font-size: 30px;
+  color: black;
+}
+#box .main_box {
+  width: 800px;
+  height: 600px;
+  border: 1px solid;
+  border-top: 0;
+  margin: 0 auto;
+  display: flex;
+  overflow-y: scroll;
+  background-color: rgb(71, 57, 131);
+  color: rgb(247, 247, 133);
+}
+#box .main_box .chats {
+  height: 900px;
+}
+#box .main_box .chat {
+  display: flex;
+  width: 150px;
+  box-sizing: unset;
+  padding: 0px 20px;
+  justify-content: space-between;
+  padding-top: 27px;
+}
+#box .main_box .chat .circle {
+  border-radius: 50%;
+  border: 1px solid rgb(247, 247, 133);
+  background-color: rgb(136, 116, 225);
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin-top: 8px;
+}
+#box .main_box .chat .circle p {
+  position: absolute;
+  margin-left: 19px;
+  margin-top: 17px;
+  font-weight: 600;
+}
+#box .main_box .chat .time {
+  margin-top: 17px;
+}
+#box .main_box .messages {
+  width: 650px;
+  height: 900px;
+  border-left: 1px solid;
+  position: relative;
+  padding: 15px 20px;
+}
+#box .main_box .messages .one {
+  padding: 12px 0px;
+}
+#box .main_box .messages .one h3 {
+  font-size: 17px;
+}
+#box .main_box .messages .one .message {
+  border: 1px solid;
+  height: 50px;
+  background-color: rgb(136, 116, 225);
+  border: 1px solid black;
+  padding: 5px;
+}
+#box .main_box .messages .one .message p {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
